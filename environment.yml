@@ -1,7 +1,11 @@
 name: engr-e533
+
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
   - defaults
+
 dependencies:
   - python=3.10
   - pytorch=1.13.1
@@ -10,9 +14,8 @@ dependencies:
   - torchaudio=0.13.1
   - matplotlib
   - ipykernel
-  - numpy[version='<2']
+  - numpy<2
   - pandas
   - scikit-learn
   - jupyter
   - mkl=2024.0
-prefix: /home/logan/miniconda3/envs/engr-e533

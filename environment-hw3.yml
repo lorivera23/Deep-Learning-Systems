@@ -1,0 +1,7 @@
+name: engr-e533-hw2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+prefix: /N/u/lorivera/BigRed200/.conda/envs/engr-e533-hw2
